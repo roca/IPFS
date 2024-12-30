@@ -1,0 +1,31 @@
+ipfs add -r ipfs-website
+added QmPmsP4n5uQ5kyfFcyHUkRgH69KzuPQY9gCqNAQ28TEb3j ipfs-website/bg-image.jpg
+added QmdZFEoUBjwFkUqMEJFdp3dHjNML1d8YfqmPHLN5F1Drd1 ipfs-website/index.html
+added QmeJxxexJVLL33edRBjw3fogxwryFRvSduYFVUkJdi5ZtX ipfs-website/index.js
+added QmNRrULdGDQeSdkyfoTtNp6tzndRVUriwPXvogH48UzQLZ ipfs-website/style.css
+added QmX97pNdrJu1xfHdF9puBFwcBQArqwNgdTkFKLmpwAPPEH ipfs-website
+
+ipfs name publish QmX97pNdrJu1xfHdF9puBFwcBQArqwNgdTkFKLmpwAPPEH
+Published to k51qzi5uqu5dinaaid7fy913fjg2ixfzme4lsone92fbu426p7kuzv68zzftiw: /ipfs/QmX97pNdrJu1xfHdF9puBFwcBQArqwNgdTkFKLmpwAPPEH
+
+
+https://ipfs.io/ipfs/QmX97pNdrJu1xfHdF9puBFwcBQArqwNgdTkFKLmpwAPPEH/
+
+https://ipfs.io/ipns/k51qzi5uqu5dinaaid7fy913fjg2ixfzme4lsone92fbu426p7kuzv68zzftiw
+
+ipfs add -r ipfs-website
+added QmPmsP4n5uQ5kyfFcyHUkRgH69KzuPQY9gCqNAQ28TEb3j ipfs-website/bg-image.jpg
+added QmdZFEoUBjwFkUqMEJFdp3dHjNML1d8YfqmPHLN5F1Drd1 ipfs-website/index.html
+added QmdEQQtHKbSNBBe7UU5cLf9HK74UjGumNbqxayrMt1GJdW ipfs-website/index.js
+added QmNRrULdGDQeSdkyfoTtNp6tzndRVUriwPXvogH48UzQLZ ipfs-website/style.css
+added QmPo5yCv2QTKjofApei9ukpPfpGfJmJHawLeyaddKpN2GY ipfs-website
+
+ipfs name publish QmPo5yCv2QTKjofApei9ukpPfpGfJmJHawLeyaddKpN2GY
+Published to k51qzi5uqu5dinaaid7fy913fjg2ixfzme4lsone92fbu426p7kuzv68zzftiw: /ipfs/QmPo5yCv2QTKjofApei9ukpPfpGfJmJHawLeyaddKpN2GY
+
+https://ipfs.io/ipfs/QmPo5yCv2QTKjofApei9ukpPfpGfJmJHawLeyaddKpN2GY
+
+https://ipfs.io/ipns/k51qzi5uqu5dinaaid7fy913fjg2ixfzme4lsone92fbu426p7kuzv68zzftiw
+
+
+
