@@ -1,0 +1,11 @@
+services:
+  node:
+    image: node:12
+    container_name: node
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: tail -f /dev/null
+    ports:
+      - "8080:8080"
+      - "3000:3000"
