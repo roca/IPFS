@@ -9,14 +9,17 @@
 //     console.log('IPFS Version: ' + version);
 // });
 
-import * as ipfs from 'ipfs-core';
-console.log("Imported IPFS");
+import { createHeliaHTTP } from '@helia/http'
+console.log("Imported IPFS/Helia");
+
+// create a Helia node
+const helia = await createHeliaHTTP()
  
 async function main() {
-    const node = await ipfs.create();
+    const helia = await ipfs.create();
     console.log ("Starting server");
     console.log("Server started");
-    const version = await node.version();
+    const version = await helia.version();
     console.log(version.version);
 }
  
