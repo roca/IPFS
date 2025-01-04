@@ -1,6 +1,7 @@
 services:
   node:
     image: node:12
+    privileged: true
     container_name: node
     working_dir: /app
     volumes:
