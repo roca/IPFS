@@ -14,16 +14,37 @@
         <div class="box node">
             <h2>Node</h2>
             <div>
-                <h3>ID</h3>
-                <pre class="node-id"></pre>
+                <div>
+                    <h3>ID</h3>
+                    <pre class="node-id"></pre>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <pre class="node-addresses"></pre>
+                </div>
+                <div>
+                    <h3>Logs</h3>
+                    <pre id="logs" class="success"> Initializing node ....</pre>
+                </div>
             </div>
-            <div>
-                <h3>Address</h3>
-                <pre class="node-addresses"></pre>
+        </div>
+        <div class="columns">
+            <div id="peers" class="box disabled">
+                <h2>Peers</h2>
+                <div class="input-button">
+                    <input type="text" name="" id="multiaddr-input" placeholder="Multiaddr" disabled>
+                    <button id="peer-btn" disabled>Connect</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Connected peers</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
             </div>
-            <div>
-                <h3>Logs</h3>
-                <pre id="logs" class="success"> Initializing node ....</pre>
+            <div id="files" class="box disabled">
             </div>
         </div>
     </main>
