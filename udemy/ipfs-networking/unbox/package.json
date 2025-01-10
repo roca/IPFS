@@ -1,16 +1,19 @@
 {
-  "name": "unbox",
-  "version": "1.0.0",
-  "description": "This a drop box clone",
-  "main": "index.js",
+  "name": "exchange-files-browser",
+  "author": "Vinay Phadnis",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "browserify public/app.js > public/bundle.js",
+    "start": "http-server -c-1 -p 12345 public",
+    "dev": "npm run bundle && npm run start"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "http-server": "^0.11.1"
+  },
   "dependencies": {
-    "browserify": "^17.0.1",
-    "http-server": "^14.1.1",
-    "stream-buffers": "^3.0.3"
+    "ipfs": "0.30.0",
+    "stream-buffers": "^3.0.1"
   }
 }
